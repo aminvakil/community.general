@@ -484,7 +484,6 @@ def main():
 
     p = module.params
 
-    # find pacman binary
     pacman_path = module.get_bin_path(p['executable'], True)
 
     global_extra_args = ''
